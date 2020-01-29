@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      .nav {
+      
+        height: 70px;
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: center;
+      }
+      .nav-item{
+        margin-left: 22px;
+    
+        font-weight: bold;
+      }
+    #title{
+      height: 70px;
+      font-weight: bold;
+      <font color:blue> 
+    }
+    #log{
+    
+      border: 1px solid skyblue;
+      color: skyblue;
+      
+    }
+    #pw{
+      border: 1px solid skyblue;
+      color: skyblue;
+    }
+    #cr{
+      border: 1px solid skyblue;
+      color: skyblue;
+    }
+    #btn_group{
+      align: center
+    }
+      </style>
+  </head>
+  <body>
+  <script>
+  password = prompt("비밀번호");
+  if(password == 1414) {
+     document.write("로그인이 성공하였습니다");
+	 } else {
+	 document.write("비밀번호가 틀렸습니다");
+	 }
+  </script>
+  <div class="nav">
+  <div class="nav-item">홈</div>
+  <div class="nav-item">검색</div>
+  <div class="nav-item">소식</div>
+  <div class="nav-item">개인정보</div>
+  </div>
+  <div class="main">
+    <div id="title">
+     OUTSTAGRAM
+     
+    </div>
+    <div id="btn_group">
+    <pre> 
+      <td>ID</td><input>          <br>                                      
+      <td>PW</td><input>               
+        
+    
+       <input type="button" id="log" value="로그인"> <input type="button" id="pw"  value="아이디/비밀번호 찾기"> <input type="button" id="cr" value="회원가입">
+      
+      </pre>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
